@@ -1,0 +1,16 @@
+services:
+  janamen:
+    build: .
+    environment:
+      DEMO_LOGIN: ${DEMO_LOGIN:-1}
+      DEMO_PASSWORD: ${DEMO_PASSWORD:-}
+      AI_PROVIDER: ${AI_PROVIDER:-groq}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      GROQ_MODEL: ${GROQ_MODEL:-openai/gpt-oss-20b}
+    ports:
+      - '3000:3000'
+    volumes:
+      - jana-data:/app/data
+    restart: unless-stopped
+volumes:
+  jana-data:

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "u1",
+    "name": "Барсик",
+    "company": "Jana Demo Company",
+    "title": "Аналитик",
+    "department": "IT",
+    "managerId": "u2",
+    "hired": "2023-02-15",
+    "leaveDays": 24
+  },
+  {
+    "id": "u2",
+    "name": "Мурзик",
+    "company": "Jana Demo Company",
+    "title": "Руководитель отдела",
+    "department": "IT",
+    "managerId": null,
+    "hired": "2020-08-10",
+    "leaveDays": 19
+  },
+  {
+    "id": "u3",
+    "name": "Рыжик",
+    "company": "Jana Demo Company",
+    "title": "HR-специалист",
+    "department": "HR",
+    "managerId": null,
+    "hired": "2021-04-01",
+    "leaveDays": 21
+  },
+  {
+    "id": "u4",
+    "name": "Пушок",
+    "company": "Jana Demo Company",
+    "title": "Специалист",
+    "department": "Финансы",
+    "managerId": "u3",
+    "hired": "2024-06-01",
+    "leaveDays": 18
+  },
+  {
+    "id": "u5",
+    "name": "Бублик",
+    "company": "Jana Demo Company",
+    "title": "Руководитель продаж",
+    "department": "Продажи",
+    "managerId": null,
+    "hired": "2025-06-06",
+    "leaveDays": 19
+  },
+  {
+    "id": "u6",
+    "name": "Персик",
+    "company": "Jana Demo Company",
+    "title": "Руководитель поддержки",
+    "department": "Поддержка",
+    "managerId": null,
+    "hired": "2020-07-07",
+    "leaveDays": 20
+  },
+  {
+    "id": "u7",
+    "name": "Снежок",
+    "company": "Jana Demo Company",
+    "title": "Руководитель операций",
+    "department": "Операции",
+    "managerId": null,
+    "hired": "2021-08-08",
+    "leaveDays": 21
+  },
+  {
+    "id": "u8",
+    "name": "Тишка",
+    "company": "Jana Demo Company",
+    "title": "Frontend-разработчик",
+    "department": "IT",
+    "managerId": "u2",
+    "hired": "2022-09-09",
+    "leaveDays": 22
+  },
+  {
+    "id": "u9",
+    "name": "Кузя",
+    "company": "Jana Demo Company",
+    "title": "Backend-разработчик",
+    "department": "IT",
+    "managerId": "u2",
+    "hired": "2023-10-10",
+    "leaveDays": 23
+  },
+  {
+    "id": "u10",
+    "name": "Симба",
+    "company": "Jana Demo Company",
+    "title": "QA-инженер",
+    "department": "IT",
+    "managerId": "u2",
+    "hired": "2024-11-11",
+    "leaveDays": 24
+  },
+  {
+    "id": "u11",
+    "name": "Том",
+    "company": "Jana Demo Company",
+    "title": "DevOps-инженер",
+    "department": "IT",
+    "managerId": "u2",
+    "hired": "2025-12-12",
+    "leaveDays": 25
+  },
+  {
+    "id": "u12",
+    "name": "Леопольд",
+    "company": "Jana Demo Company",
+    "title": "UX/UI-дизайнер",
+    "department": "IT",
+    "managerId": "u2",
+    "hired": "2020-01-13",
+    "leaveDays": 26
+  },
+  {
+    "id": "u13",
+    "name": "Базилио",
+    "company": "Jana Demo Company",
+    "title": "Системный аналитик",
+    "department": "IT",
+    "managerId": "u2",
+    "hired": "2021-02-14",
+    "leaveDays": 27
+  },
+  {
+    "id": "u14",
+    "name": "Матроскин",
+    "company": "Jana Demo Company",
+    "title": "Менеджер продаж",
+    "department": "Продажи",
+    "managerId": "u5",
+    "hired": "2022-03-15",
+    "leaveDays": 28
+  },
+  {
+    "id": "u15",
+    "name": "Гарфилд",
+    "company": "Jana Demo Company",
+    "title": "Менеджер по работе с клиентами",
+    "department": "Продажи",
+    "managerId": "u5",
+    "hired": "2023-04-16",
+    "leaveDays": 14
+  },
+  {
+    "id": "u16",
+    "name": "Феликс",
+    "company": "Jana Demo Company",
+    "title": "Специалист по развитию",
+    "department": "Продажи",
+    "managerId": "u5",
+    "hired": "2024-05-17",
+    "leaveDays": 15
+  },
+  {
+    "id": "u17",
+    "name": "Бегемот",
+    "company": "Jana Demo Company",
+    "title": "Менеджер ключевых клиентов",
+    "department": "Продажи",
+    "managerId": "u5",
+    "hired": "2025-06-18",
+    "leaveDays": 16
+  },
+  {
+    "id": "u18",
+    "name": "Честер",
+    "company": "Jana Demo Company",
+    "title": "Координатор продаж",
+    "department": "Продажи",
+    "managerId": "u5",
+    "hired": "2020-07-19",
+    "leaveDays": 17
+  },
+  {
+    "id": "u19",
+    "name": "Марсик",
+    "company": "Jana Demo Company",
+    "title": "Специалист поддержки",
+    "department": "Поддержка",
+    "managerId": "u6",
+    "hired": "2021-08-20",
+    "leaveDays": 18
+  },
+  {
+    "id": "u20",
+    "name": "Фунтик",
+    "company": "Jana Demo Company",
+    "title": "Специалист поддержки",
+    "department": "Поддержка",
+    "managerId": "u6",
+    "hired": "2022-09-21",
+    "leaveDays": 19
+  },
+  {
+    "id": "u21",
+    "name": "Пират",
+    "company": "Jana Demo Company",
+    "title": "Инженер поддержки",
+    "department": "Поддержка",
+    "managerId": "u6",
+    "hired": "2023-10-22",
+    "leaveDays": 20
+  },
+  {
+    "id": "u22",
+    "name": "Уголёк",
+    "company": "Jana Demo Company",
+    "title": "Специалист клиентского сервиса",
+    "department": "Поддержка",
+    "managerId": "u6",
+    "hired": "2024-11-23",
+    "leaveDays": 21
+  },
+  {
+    "id": "u23",
+    "name": "Зефир",
+    "company": "Jana Demo Company",
+    "title": "Координатор операций",
+    "department": "Операции",
+    "managerId": "u7",
+    "hired": "2025-12-24",
+    "leaveDays": 22
+  },
+  {
+    "id": "u24",
+    "name": "Кекс",
+    "company": "Jana Demo Company",
+    "title": "Специалист по логистике",
+    "department": "Операции",
+    "managerId": "u7",
+    "hired": "2020-01-25",
+    "leaveDays": 23
+  },
+  {
+    "id": "u25",
+    "name": "Василёк",
+    "company": "Jana Demo Company",
+    "title": "Администратор офиса",
+    "department": "Операции",
+    "managerId": "u7",
+    "hired": "2021-02-01",
+    "leaveDays": 24
+  },
+  {
+    "id": "u26",
+    "name": "Тигрик",
+    "company": "Jana Demo Company",
+    "title": "Специалист по закупкам",
+    "department": "Операции",
+    "managerId": "u7",
+    "hired": "2022-03-02",
+    "leaveDays": 25
+  },
+  {
+    "id": "u27",
+    "name": "Локи",
+    "company": "Jana Demo Company",
+    "title": "HR-координатор",
+    "department": "HR",
+    "managerId": "u3",
+    "hired": "2023-04-03",
+    "leaveDays": 26
+  },
+  {
+    "id": "u28",
+    "name": "Оскар",
+    "company": "Jana Demo Company",
+    "title": "Специалист по обучению",
+    "department": "HR",
+    "managerId": "u3",
+    "hired": "2024-05-04",
+    "leaveDays": 27
+  },
+  {
+    "id": "u29",
+    "name": "Боня",
+    "company": "Jana Demo Company",
+    "title": "Бухгалтер",
+    "department": "Финансы",
+    "managerId": "u3",
+    "hired": "2025-06-05",
+    "leaveDays": 28
+  },
+  {
+    "id": "u30",
+    "name": "Филя",
+    "company": "Jana Demo Company",
+    "title": "Финансовый аналитик",
+    "department": "Финансы",
+    "managerId": "u3",
+    "hired": "2020-07-06",
+    "leaveDays": 14
+  }
+]

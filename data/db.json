@@ -1,0 +1,1026 @@
+{
+  "schemaVersion": 4,
+  "demoVersion": 5,
+  "users": [
+    {
+      "id": "u1",
+      "name": "Барсик",
+      "company": "Jana Demo Company",
+      "title": "Аналитик",
+      "department": "IT",
+      "managerId": "u2",
+      "hired": "2023-02-15",
+      "leaveDays": 24,
+      "email": "employee@jana.test",
+      "role": "employee",
+      "pass": "a638bd25e358c13626cf68cac3d7ecdc:72cb9d14d8e9bb4fd9f2b9130a76c11e13282f366ca246646eabd828766988cbdda30ff1bb55a525fb95097e3bb04c521e76a1197065b9014e88de0c7f948ca5"
+    },
+    {
+      "id": "u2",
+      "name": "Мурзик",
+      "company": "Jana Demo Company",
+      "title": "Руководитель отдела",
+      "department": "IT",
+      "managerId": null,
+      "hired": "2020-08-10",
+      "leaveDays": 19,
+      "email": "manager@jana.test",
+      "role": "manager",
+      "pass": "ae307fed6a5238957d666a21d8229ac2:70f579a477c777b45241e0fc51814de1768549a99fe3f1436aa4e53062f1ecd76f7d9e4eb074717c77cc6489e66bdd9b318983eb9a9abb7a05e2237e62aff54c"
+    },
+    {
+      "id": "u3",
+      "name": "Рыжик",
+      "company": "Jana Demo Company",
+      "title": "HR-специалист",
+      "department": "HR",
+      "managerId": null,
+      "hired": "2021-04-01",
+      "leaveDays": 21,
+      "email": "hr@jana.test",
+      "role": "hr",
+      "pass": "93cd1f616afd8946d6ac9c98061b806e:9467236eca5bde24670767c8a1b218410fbe677ac3b951e51c06ee248bbff30049918db9ea7cf64b47f7287bfd59ece80b366658d7c0852aacc861563bb01f31"
+    },
+    {
+      "id": "u4",
+      "name": "Пушок",
+      "company": "Jana Demo Company",
+      "title": "Специалист",
+      "department": "Финансы",
+      "managerId": "u3",
+      "hired": "2024-06-01",
+      "leaveDays": 18,
+      "email": "outsider@jana.test",
+      "role": "employee",
+      "pass": "441496b7df1eb8746309c273ccf2780b:8c06a6fb03a6b4f34db4dd3d22616a317ec6e63698dfc56e960ae12bf690157eb83afa0690cb4b49ab5d81b31779310ba44565a58eeecc319cb8c39d700bce98"
+    },
+    {
+      "id": "u5",
+      "name": "Бублик",
+      "company": "Jana Demo Company",
+      "title": "Руководитель продаж",
+      "department": "Продажи",
+      "managerId": null,
+      "hired": "2025-06-06",
+      "leaveDays": 19,
+      "email": "employee5@jana.test",
+      "role": "manager",
+      "pass": "10e7062767f8900093d8288757876596:cd333e15ea7e877947347628631af79218cd14f67be538a5803c78b2084db64c393344aeff975153f3d739aead4f03b13648d4c78dfb21ada552c53adae36d36"
+    },
+    {
+      "id": "u6",
+      "name": "Персик",
+      "company": "Jana Demo Company",
+      "title": "Руководитель поддержки",
+      "department": "Поддержка",
+      "managerId": null,
+      "hired": "2020-07-07",
+      "leaveDays": 20,
+      "email": "employee6@jana.test",
+      "role": "manager",
+      "pass": "e0ee9d36ee66b523aecbcc239986a2b6:2dc534f9344de18c1ab44b9f5bd64adcf75433bdeba0520cde3a2a231738aab0d38507ae15a59753438972e98499c0864b99a5a43dfa259a4dfe4e11a3a66f11"
+    },
+    {
+      "id": "u7",
+      "name": "Снежок",
+      "company": "Jana Demo Company",
+      "title": "Руководитель операций",
+      "department": "Операции",
+      "managerId": null,
+      "hired": "2021-08-08",
+      "leaveDays": 21,
+      "email": "employee7@jana.test",
+      "role": "manager",
+      "pass": "dcc341fde90c610779d73a2845c62023:ed1ae5cbca1ce0d4edaedb64c0781d20ea128ceaa7776db8f89dd22515d47660a8d7a16d89ea9375d3d66ba956d84ed08921452d99795c6388cc670c499ce44a"
+    },
+    {
+      "id": "u8",
+      "name": "Тишка",
+      "company": "Jana Demo Company",
+      "title": "Frontend-разработчик",
+      "department": "IT",
+      "managerId": "u2",
+      "hired": "2022-09-09",
+      "leaveDays": 22,
+      "email": "employee8@jana.test",
+      "role": "employee",
+      "pass": "743c14d1fdeb3080f0f868c9240e3807:e3b386b955744040c686636a1ca2f82943f5e4e9456cadfba9527e6e5996e7eb23995bdaca0a542e006d63b3774be8b50babcabae60d5dfae2a4c6cc1ef69c48"
+    },
+    {
+      "id": "u9",
+      "name": "Кузя",
+      "company": "Jana Demo Company",
+      "title": "Backend-разработчик",
+      "department": "IT",
+      "managerId": "u2",
+      "hired": "2023-10-10",
+      "leaveDays": 23,
+      "email": "employee9@jana.test",
+      "role": "employee",
+      "pass": "9f4ed0b91fe9cb5c9ef7300abf8f5b37:40d5cbae4334ef8eac96a69e701e5a7d31f76c04c8851e0a6ad6d89f3cf32d8d88974de37521f6eaf71995ee046aaf5f1d05cb0fc22ff5e60110501a328840ca"
+    },
+    {
+      "id": "u10",
+      "name": "Симба",
+      "company": "Jana Demo Company",
+      "title": "QA-инженер",
+      "department": "IT",
+      "managerId": "u2",
+      "hired": "2024-11-11",
+      "leaveDays": 24,
+      "email": "employee10@jana.test",
+      "role": "employee",
+      "pass": "11feae0bc17d52603a421a98bbbf18e7:3e5c2c8bf056e217fa220655cb0561070397ef230773d3e0ed4539bc1b9c9a47f2370a9b781dedcf0b456961a3d2543a826bdd18d0b6754a5f4a602d90aeb0f8"
+    },
+    {
+      "id": "u11",
+      "name": "Том",
+      "company": "Jana Demo Company",
+      "title": "DevOps-инженер",
+      "department": "IT",
+      "managerId": "u2",
+      "hired": "2025-12-12",
+      "leaveDays": 25,
+      "email": "employee11@jana.test",
+      "role": "employee",
+      "pass": "7b0cb3dd4f727f0976fe0ec6b2ff0e43:003e1f193aa056a57ad355ee80854dff28cb3e37913f767e4c6fd37d8386e533c17d533b8ff1918b248fbce1dcf890b471f7dd2b77c778a7ac81ab536baaec25"
+    },
+    {
+      "id": "u12",
+      "name": "Леопольд",
+      "company": "Jana Demo Company",
+      "title": "UX/UI-дизайнер",
+      "department": "IT",
+      "managerId": "u2",
+      "hired": "2020-01-13",
+      "leaveDays": 26,
+      "email": "employee12@jana.test",
+      "role": "employee",
+      "pass": "5a4a6900afa507441fb1c325a440b465:1bcc2d1c4eeea83f68a4be71efa2723aeab9c73bcfcafb3c89d03d5ef8f83085418e1ac70e3e1b839616004beffa6f1ed29aed03ae6beb956422723818f47d4a"
+    },
+    {
+      "id": "u13",
+      "name": "Базилио",
+      "company": "Jana Demo Company",
+      "title": "Системный аналитик",
+      "department": "IT",
+      "managerId": "u2",
+      "hired": "2021-02-14",
+      "leaveDays": 27,
+      "email": "employee13@jana.test",
+      "role": "employee",
+      "pass": "f3b0f08dda93ea964091cb7dc3d79cd8:14ee8757391203a09afc51199f2590e3e53cd08de1361402583432c77dfd7e2ede1f766d78ee8ca42d525f59bec5daafcc60daf3ade42cc8e0dd555a6f14b22c"
+    },
+    {
+      "id": "u14",
+      "name": "Матроскин",
+      "company": "Jana Demo Company",
+      "title": "Менеджер продаж",
+      "department": "Продажи",
+      "managerId": "u5",
+      "hired": "2022-03-15",
+      "leaveDays": 28,
+      "email": "employee14@jana.test",
+      "role": "employee",
+      "pass": "112696869d5cce1963d5dca42b146404:2f8f4008345f64eb7521104e480bac815e5458b42501fe49b63118f3a4517597d7b2f34415eff195c44edc90241b0560b62732601f62b122b71bd178fec65541"
+    },
+    {
+      "id": "u15",
+      "name": "Гарфилд",
+      "company": "Jana Demo Company",
+      "title": "Менеджер по работе с клиентами",
+      "department": "Продажи",
+      "managerId": "u5",
+      "hired": "2023-04-16",
+      "leaveDays": 14,
+      "email": "employee15@jana.test",
+      "role": "employee",
+      "pass": "9cd78b6f5a9d93490e01475fe1254b56:df870d48521ee35fa18616da70bb76d6acd28f9a193aa6170b70641d7d50b71f19a7df25f243c32afdc2d6c081312b9b8f39dd0e45913105bac8707f01640b38"
+    },
+    {
+      "id": "u16",
+      "name": "Феликс",
+      "company": "Jana Demo Company",
+      "title": "Специалист по развитию",
+      "department": "Продажи",
+      "managerId": "u5",
+      "hired": "2024-05-17",
+      "leaveDays": 15,
+      "email": "employee16@jana.test",
+      "role": "employee",
+      "pass": "cac4f3ec958830f53b1e3ed8baba291b:d33afecbed683472d2ecb35196fdc42fafecaf28a89c4fcd5afc1caf269eee8d7c5071e202cc8d0cba215efad1b6b862540746db9e3fd90be50ef91a97012233"
+    },
+    {
+      "id": "u17",
+      "name": "Бегемот",
+      "company": "Jana Demo Company",
+      "title": "Менеджер ключевых клиентов",
+      "department": "Продажи",
+      "managerId": "u5",
+      "hired": "2025-06-18",
+      "leaveDays": 16,
+      "email": "employee17@jana.test",
+      "role": "employee",
+      "pass": "b15e39ce7a910608890acb31f9c90ce4:66567b09dfc21efcb25e3475a707b3b5f241b9544a0bcc3bf42b65d7c2ac94e2461c1899b61929cc465498bda9df41715acc47caf1fab4c56aee31795fbe5014"
+    },
+    {
+      "id": "u18",
+      "name": "Честер",
+      "company": "Jana Demo Company",
+      "title": "Координатор продаж",
+      "department": "Продажи",
+      "managerId": "u5",
+      "hired": "2020-07-19",
+      "leaveDays": 17,
+      "email": "employee18@jana.test",
+      "role": "employee",
+      "pass": "bc52ecd76d72aadb969f7675beec19f7:8f4c6b7402509a83c1edbfc1e8405366d88dd52db3730e08d2ff2821e61f9bf72b203a209314a808ab01d7eda5cb7ff9f8e466fd0ce8e56036f89074e4329b35"
+    },
+    {
+      "id": "u19",
+      "name": "Марсик",
+      "company": "Jana Demo Company",
+      "title": "Специалист поддержки",
+      "department": "Поддержка",
+      "managerId": "u6",
+      "hired": "2021-08-20",
+      "leaveDays": 18,
+      "email": "employee19@jana.test",
+      "role": "employee",
+      "pass": "c8bdeb5ed89d77ffa984e2e8fc304b62:3d54dc2675b2abdadd1fa652eb89a5245d84ca92cb20c36a6730493c05632071c4e831f694b67f86f913147dcd4781707afb6becab92a48c30f8f173939306c1"
+    },
+    {
+      "id": "u20",
+      "name": "Фунтик",
+      "company": "Jana Demo Company",
+      "title": "Специалист поддержки",
+      "department": "Поддержка",
+      "managerId": "u6",
+      "hired": "2022-09-21",
+      "leaveDays": 19,
+      "email": "employee20@jana.test",
+      "role": "employee",
+      "pass": "c9064fa71428f94e94357439bb257b0d:4c25b4ea0e54a5ae0d6c1aa88ce5be9cf3d3e2a4ce1227571ab1148f210c8561bea540c8d3c32b2fc6d9c631c15dc4e48dc9a7ea2bc0c136b691c2f6a3c283d7"
+    },
+    {
+      "id": "u21",
+      "name": "Пират",
+      "company": "Jana Demo Company",
+      "title": "Инженер поддержки",
+      "department": "Поддержка",
+      "managerId": "u6",
+      "hired": "2023-10-22",
+      "leaveDays": 20,
+      "email": "employee21@jana.test",
+      "role": "employee",
+      "pass": "73143a80e363a92b59e6d0d0fa4f852b:5cbcf3768b7b870375b08af71ab5d675f58530aa376ab1cfab4dfea25059792bb8084f435e049e6c151cfb856e019153c0d013f03d073561eb06be5668ddd98f"
+    },
+    {
+      "id": "u22",
+      "name": "Уголёк",
+      "company": "Jana Demo Company",
+      "title": "Специалист клиентского сервиса",
+      "department": "Поддержка",
+      "managerId": "u6",
+      "hired": "2024-11-23",
+      "leaveDays": 21,
+      "email": "employee22@jana.test",
+      "role": "employee",
+      "pass": "9384ef09ae95f60b902960abf1e9dc32:437c510f46e3094b81897a145d2e3e47e18f0b5c0516735b5f1eb5b4618d25ccbb30bb19543ed77de613766771fd1621204165b8b3acab23f5169b4b214bd3c7"
+    },
+    {
+      "id": "u23",
+      "name": "Зефир",
+      "company": "Jana Demo Company",
+      "title": "Координатор операций",
+      "department": "Операции",
+      "managerId": "u7",
+      "hired": "2025-12-24",
+      "leaveDays": 22,
+      "email": "employee23@jana.test",
+      "role": "employee",
+      "pass": "505606474ff1817a8773f5b1d3a9f28b:325bfb2d45632228ef5dc48f6aed296b2b185e122235c392208b6fc4f726c6d4386a264b81a87ba7805f2b2611476280428b73d9e953018d75518e502e2290ad"
+    },
+    {
+      "id": "u24",
+      "name": "Кекс",
+      "company": "Jana Demo Company",
+      "title": "Специалист по логистике",
+      "department": "Операции",
+      "managerId": "u7",
+      "hired": "2020-01-25",
+      "leaveDays": 23,
+      "email": "employee24@jana.test",
+      "role": "employee",
+      "pass": "9066a66cffbe4f40620ba2f10918003d:756f818a0925423c5f86ce7cc9cadf6fa36018b9f43ad6bcb45a1daf62d0b3f41aa0c2995119819f3fab0977c8e53f688dcdf9d19f722aa306a680e904c69a82"
+    },
+    {
+      "id": "u25",
+      "name": "Василёк",
+      "company": "Jana Demo Company",
+      "title": "Администратор офиса",
+      "department": "Операции",
+      "managerId": "u7",
+      "hired": "2021-02-01",
+      "leaveDays": 24,
+      "email": "employee25@jana.test",
+      "role": "employee",
+      "pass": "d9e3dc091a69f8386d7fa96049bdccf1:c651cec8797ff9adc435126178ae92714d32b8e417a7d2b755e4ffc2c4d8b61ab13a0cb39fa497dd96271f6942f94e86fef832edad987ea04ed400830fc010b5"
+    },
+    {
+      "id": "u26",
+      "name": "Тигрик",
+      "company": "Jana Demo Company",
+      "title": "Специалист по закупкам",
+      "department": "Операции",
+      "managerId": "u7",
+      "hired": "2022-03-02",
+      "leaveDays": 25,
+      "email": "employee26@jana.test",
+      "role": "employee",
+      "pass": "2c0ab50500507811ca6b2213b111fe30:cb88c5d2278800f04ed314025c3cebdce139f7711c880614927bce0eaeaba100f3e23bedc550938159a889b1d7691d78aa24cbea26eaab69b76446cea09c30ae"
+    },
+    {
+      "id": "u27",
+      "name": "Локи",
+      "company": "Jana Demo Company",
+      "title": "HR-координатор",
+      "department": "HR",
+      "managerId": "u3",
+      "hired": "2023-04-03",
+      "leaveDays": 26,
+      "email": "employee27@jana.test",
+      "role": "employee",
+      "pass": "b74ed78447653b7c23acafac00cde78c:ea3f499d9df989f63b80685045c89c7bd5f1437a801507b7b19924242be957fc3c5d09446e49a028c9dfe0450a6062affac94472910d6ab68b82e3eb2915f4ca"
+    },
+    {
+      "id": "u28",
+      "name": "Оскар",
+      "company": "Jana Demo Company",
+      "title": "Специалист по обучению",
+      "department": "HR",
+      "managerId": "u3",
+      "hired": "2024-05-04",
+      "leaveDays": 27,
+      "email": "employee28@jana.test",
+      "role": "employee",
+      "pass": "a7d51e78eafd27271baa6ff4ddb72ac0:6a60d1ac13908fca6aef1ea821e7a9b676e33b80a0251978a7246b40c949ccfe21665bfaa4aa6028702a1bb370a081e6549ad4936091ddc80496b7541e1ed15d"
+    },
+    {
+      "id": "u29",
+      "name": "Боня",
+      "company": "Jana Demo Company",
+      "title": "Бухгалтер",
+      "department": "Финансы",
+      "managerId": "u3",
+      "hired": "2025-06-05",
+      "leaveDays": 28,
+      "email": "employee29@jana.test",
+      "role": "employee",
+      "pass": "0437e595f11a15d5198998c67d6f5239:55cd3b96faa06d0391b9ed4087a13926f8503806ec8ed6e45d108392a72a5ee86d717fd0dbd0e60f70f02fc6e130e61b1d7980615c924739850e09603df16658"
+    },
+    {
+      "id": "u30",
+      "name": "Филя",
+      "company": "Jana Demo Company",
+      "title": "Финансовый аналитик",
+      "department": "Финансы",
+      "managerId": "u3",
+      "hired": "2020-07-06",
+      "leaveDays": 14,
+      "email": "employee30@jana.test",
+      "role": "employee",
+      "pass": "f3d250455baeae73ddd0558b674da88a:53c4dadfadac740be36e9e15c3f34862eef00fa549d33c4633048e9d686c65f9532ff15382d6a07cd99a26e44b7fb184f57182d0a655013e29950b4e98080bea"
+    }
+  ],
+  "requests": [
+    {
+      "id": "demo-pending",
+      "ownerId": "u1",
+      "type": "leave",
+      "start": "2026-10-24",
+      "end": "2026-10-26",
+      "note": "Плановый отпуск для демонстрации согласования",
+      "status": "pending",
+      "createdAt": "2026-10-12T11:39:13.248Z",
+      "history": [
+        {
+          "status": "pending",
+          "at": "2026-10-12T11:39:13.248Z",
+          "actor": "u1"
+        }
+      ],
+      "externalId": "DOC-demo-pending"
+    },
+    {
+      "id": "demo-approved",
+      "ownerId": "u1",
+      "type": "leave",
+      "start": "2026-10-02",
+      "end": "2026-10-05",
+      "note": "Завершённый отпуск: пример истории",
+      "status": "approved",
+      "createdAt": "2026-09-27T11:39:13.248Z",
+      "history": [
+        {
+          "status": "pending",
+          "at": "2026-09-27T11:39:13.248Z",
+          "actor": "u1"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-27T11:39:13.248Z",
+          "actor": "u2"
+        }
+      ],
+      "externalId": "DOC-demo-approved"
+    },
+    {
+      "id": "demo-rejected",
+      "ownerId": "u1",
+      "type": "leave",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "note": "Отклонённая заявка: сотрудник может подать новую",
+      "status": "rejected",
+      "createdAt": "2026-10-10T11:39:13.248Z",
+      "history": [
+        {
+          "status": "pending",
+          "at": "2026-10-10T11:39:13.248Z",
+          "actor": "u1"
+        },
+        {
+          "status": "rejected",
+          "at": "2026-10-16T11:39:13.248Z",
+          "actor": "u2"
+        }
+      ],
+      "externalId": "DOC-demo-rejected"
+    },
+    {
+      "id": "demo-outsider",
+      "ownerId": "u4",
+      "type": "leave",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "note": "Заявка другого подразделения: проверка изоляции",
+      "status": "pending",
+      "createdAt": "2026-10-09T11:39:13.248Z",
+      "history": [
+        {
+          "status": "pending",
+          "at": "2026-10-09T11:39:13.248Z",
+          "actor": "u4"
+        }
+      ],
+      "externalId": "DOC-demo-outsider"
+    },
+    {
+      "id": "demo-manager",
+      "ownerId": "u2",
+      "type": "leave",
+      "start": "2026-11-16",
+      "end": "2026-11-17",
+      "note": "Собственная заявка руководителя: без самосогласования",
+      "status": "pending",
+      "createdAt": "2026-10-08T11:39:13.248Z",
+      "history": [
+        {
+          "status": "pending",
+          "at": "2026-10-08T11:39:13.248Z",
+          "actor": "u2"
+        }
+      ],
+      "externalId": "DOC-demo-manager"
+    }
+  ],
+  "assignments": [
+    {
+      "userId": "u1",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u2",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u3",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u4",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u5",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u6",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u7",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u8",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u9",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u10",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u11",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u12",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u13",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u14",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u15",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u16",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u17",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u18",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u19",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u20",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u21",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u22",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u23",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u24",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u25",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u26",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u27",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u28",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u29",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u30",
+      "courseId": "c1",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    },
+    {
+      "userId": "u4",
+      "courseId": "c2",
+      "assignedAt": "2026-10-14T11:39:13.248Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "demo-course-u1",
+      "userId": "u1",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": true
+    },
+    {
+      "id": "demo-course-u2",
+      "userId": "u2",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": true
+    },
+    {
+      "id": "demo-course-u3",
+      "userId": "u3",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": true
+    },
+    {
+      "id": "demo-course-u4",
+      "userId": "u4",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u5",
+      "userId": "u5",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u6",
+      "userId": "u6",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u7",
+      "userId": "u7",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u8",
+      "userId": "u8",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u9",
+      "userId": "u9",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u10",
+      "userId": "u10",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u11",
+      "userId": "u11",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u12",
+      "userId": "u12",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u13",
+      "userId": "u13",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u14",
+      "userId": "u14",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u15",
+      "userId": "u15",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u16",
+      "userId": "u16",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u17",
+      "userId": "u17",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u18",
+      "userId": "u18",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u19",
+      "userId": "u19",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u20",
+      "userId": "u20",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u21",
+      "userId": "u21",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u22",
+      "userId": "u22",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u23",
+      "userId": "u23",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u24",
+      "userId": "u24",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u25",
+      "userId": "u25",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u26",
+      "userId": "u26",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u27",
+      "userId": "u27",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u28",
+      "userId": "u28",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u29",
+      "userId": "u29",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-course-u30",
+      "userId": "u30",
+      "text": "Вам назначен курс «Информационная безопасность»",
+      "at": "2026-10-14T11:39:13.248Z",
+      "read": false
+    },
+    {
+      "id": "demo-approved-note",
+      "userId": "u1",
+      "text": "Ваша заявка согласована: 2026-10-02 — 2026-10-05",
+      "at": "2026-09-27T11:39:13.248Z",
+      "read": true
+    },
+    {
+      "id": "demo-rejected-note",
+      "userId": "u1",
+      "text": "Ваша заявка отклонена: 2026-11-06 — 2026-11-08",
+      "at": "2026-10-16T11:39:13.248Z",
+      "read": true
+    },
+    {
+      "id": "demo-course-complete",
+      "userId": "u2",
+      "text": "Курс «Информационная безопасность» успешно завершён",
+      "at": "2026-10-16T11:39:13.248Z",
+      "read": true
+    },
+    {
+      "id": "demo-incoming",
+      "userId": "u2",
+      "text": "Барсик: новая заявка на отпуск",
+      "at": "2026-10-12T11:39:13.248Z",
+      "read": true
+    }
+  ],
+  "progress": [
+    {
+      "userId": "u2",
+      "courseId": "c1",
+      "read": true,
+      "completed": true,
+      "at": "2026-10-16T11:39:13.248Z"
+    },
+    {
+      "userId": "u4",
+      "courseId": "c1",
+      "read": true,
+      "completed": false
+    }
+  ],
+  "courses": [
+    "c1",
+    "c2"
+  ],
+  "presentationNamesVersion": 1,
+  "integrations": {
+    "documents": [
+      {
+        "externalId": "DOC-demo-pending",
+        "requestId": "demo-pending",
+        "ownerId": "u1",
+        "type": "leave",
+        "start": "2026-10-24",
+        "end": "2026-10-26",
+        "status": "pending",
+        "version": 1,
+        "updatedAt": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "externalId": "DOC-demo-approved",
+        "requestId": "demo-approved",
+        "ownerId": "u1",
+        "type": "leave",
+        "start": "2026-10-02",
+        "end": "2026-10-05",
+        "status": "approved",
+        "version": 1,
+        "updatedAt": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "externalId": "DOC-demo-rejected",
+        "requestId": "demo-rejected",
+        "ownerId": "u1",
+        "type": "leave",
+        "start": "2026-11-06",
+        "end": "2026-11-08",
+        "status": "rejected",
+        "version": 1,
+        "updatedAt": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "externalId": "DOC-demo-outsider",
+        "requestId": "demo-outsider",
+        "ownerId": "u4",
+        "type": "leave",
+        "start": "2026-10-31",
+        "end": "2026-11-01",
+        "status": "pending",
+        "version": 1,
+        "updatedAt": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "externalId": "DOC-demo-manager",
+        "requestId": "demo-manager",
+        "ownerId": "u2",
+        "type": "leave",
+        "start": "2026-11-16",
+        "end": "2026-11-17",
+        "status": "pending",
+        "version": 1,
+        "updatedAt": "2026-10-17T11:39:15.038Z"
+      }
+    ],
+    "events": [
+      {
+        "id": "41426a38-6013-4ebb-98ab-78d697c0c267",
+        "system": "documentolog",
+        "operation": "workflow.submit",
+        "externalId": "DOC-demo-manager",
+        "actorId": "system",
+        "at": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "id": "2b9659a3-6728-4f4b-9d83-faea99bacdb1",
+        "system": "documentolog",
+        "operation": "workflow.submit",
+        "externalId": "DOC-demo-outsider",
+        "actorId": "system",
+        "at": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "id": "087d160f-63c0-4fc2-ae30-a92563c4924a",
+        "system": "documentolog",
+        "operation": "workflow.submit",
+        "externalId": "DOC-demo-rejected",
+        "actorId": "system",
+        "at": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "id": "cf8308af-9d2a-442c-8bca-1f206dacc044",
+        "system": "documentolog",
+        "operation": "workflow.submit",
+        "externalId": "DOC-demo-approved",
+        "actorId": "system",
+        "at": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "id": "3520fe69-0541-487c-9f73-859228b660ed",
+        "system": "documentolog",
+        "operation": "workflow.submit",
+        "externalId": "DOC-demo-pending",
+        "actorId": "system",
+        "at": "2026-10-17T11:39:15.038Z"
+      },
+      {
+        "id": "06d03f99-d5cf-4b5f-b82b-1c92e5af749b",
+        "system": "1c-zup",
+        "operation": "personnel.read",
+        "externalId": null,
+        "actorId": "system",
+        "at": "2026-10-17T11:39:15.038Z"
+      }
+    ],
+    "lastPersonnelSync": "2026-10-17T11:39:15.038Z",
+    "connections": []
+  }
+}
